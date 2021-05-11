@@ -24,7 +24,7 @@ function add_item() {
     Pizza_Menu.sort();
     addata = "<section class='cards'>"
     for (var tink = 0; tink < Pizza_Menu.length; tink++) {
-        addata = addata + "<div class='card'>" + '<img src="images/pizzalmg.png"/>' + Pizza_Menu[tink] + '</div>'
+        addata = addata + "<div class='card'>" + '<img src="pizzalmg.png">' + Pizza_Menu[tink] + '</div>'
     }
     addata = addata + "</section>"
     document.getElementById("display_addmenu").innerHTML = addata;
